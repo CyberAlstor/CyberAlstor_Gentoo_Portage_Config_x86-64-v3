@@ -1,0 +1,2 @@
+# Build Tor with libseccomp for sandbox
+net-vpn/tor seccomps

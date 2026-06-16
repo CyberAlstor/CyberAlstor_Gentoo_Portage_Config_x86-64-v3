@@ -1,0 +1,2 @@
+net-analyzer/wireshark bcg729 http2 http3 ilbc dpauxmon kerberos lua lua_single_target_lua5-4 maxminddb opus pkcs11 sbc smi spandsp wifi xxhash
+>=net-libs/gnutls-3.8.13 pkcs11

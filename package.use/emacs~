@@ -1,2 +1,0 @@
-app-editors/emacs jit mailutils gui -X gtk dynamic loading
-sys-devel/gcc jit

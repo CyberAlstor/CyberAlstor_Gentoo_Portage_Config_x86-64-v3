@@ -4,7 +4,7 @@ This is my personal Gentoo Portage Configuration for my Dell Inspiron 15 3535 la
 
 As far as freedom, there are some exceptions which I have made, being sure to read their related licenses (ex. Steam for games). Such propiertary programs are install via flatpak from flathub for isolation and host safety. I do make sure to check that the flathub packages are from the original authors and are verified to prevent malware from being installed.
 
-I do use some AppImages, but I do make use of flatpak when a verified package of it is avialable on flathub, in favor of isolation, secu;3Drity, and convenience (ex. updates are handled automatically by flatpak instead of manually with AppImages).
+I do use some AppImages, but I do make use of flatpak when a verified package of it is avialable on flathub, in favor of isolation, security, and convenience (ex. updates are handled automatically by flatpak instead of manually with AppImages).
 
 Other configuration files which I use are found in other repos on my Github profile. Links will be provided at the end of this README.
 

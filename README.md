@@ -28,7 +28,7 @@ sudo cat /sys/firmware/efi/fw_platform_size
 
 If the system did not boot in the mode you desired (UEFI vs BIOS), refer to your motherboard's manual. 
 
-## Gentoo Wiki Docs for Secureboot
+### Gentoo Wiki Docs for Secureboot
 
 I highly suggest reading the optional Secureboot sections in the Gentoo AMD64 Handbook during the Gentoo installation process to get Secureboot working.
 

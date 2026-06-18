@@ -20,6 +20,8 @@ These are trusted free and open source packages installed directly onto the host
 - cryptsetup
 - io-scheduler-rules
 - doas
+- sys-fs/fuse:0 (for proper appimage functionality)
+- openjdk:21 (Ghidra requires Java 21 runtime)
 
 ### Personal Applications
 
@@ -34,6 +36,7 @@ These are trusted free and open source packages installed directly onto the host
 - Podman
 - Podman-compose
 - GNU Emacs
+- Git
 - Ark
 - Elisa
 - Kdenlive

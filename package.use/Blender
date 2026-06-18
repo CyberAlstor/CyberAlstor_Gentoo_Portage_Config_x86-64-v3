@@ -1,0 +1,5 @@
+>=media-libs/freetype-2.14.3 brotli
+>=sci-physics/bullet-3.21 double-precision
+>=media-video/ffmpeg-8.1.1 lame theora xvid opus vpx
+>=sci-libs/fftw-3.3.10-r1 threads
+>=media-libs/opensubdiv-3.6.1 tbb

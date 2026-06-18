@@ -44,7 +44,7 @@ sudo rm portage
 sudo git clone https://github.com/CyberAlstor/CyberAlstor_Gentoo_Portage_Config_x86-64-v3.git portage
 ```
 
-After installing it, be sure to read Gentoo_Setup_And_Apps.md for further installation and configuration instructions. It will tell you what tools (ex. bootloader, filesystem, etc) and apps I suggest installing. However, it is your choice to install whatever you want. This is what works for me.
+After installing it, be sure to read **Gentoo_Setup_And_Apps.md** for further installation and configuration instructions. It will tell you what tools (ex. bootloader, filesystem, etc) and apps I suggest installing. However, it is your choice to install whatever you want. This is what works for me.
 
 # Other Config files I use:
 

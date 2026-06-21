@@ -52,6 +52,7 @@ These are trusted free and open source packages installed directly onto the host
 - Godot
 - Blender
 - Tor
+- GIMP
 
 # Flatpak (Flathub)
 

@@ -1,2 +1,2 @@
-www-client/librewolf hwaccel openh264
+www-client/librewolf hwaccel openh264 -llvm_slot_22 llvm_slot_21
 >=media-libs/libvpx-1.16.0 postproc

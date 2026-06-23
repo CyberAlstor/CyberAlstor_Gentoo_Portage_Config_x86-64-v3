@@ -34,7 +34,7 @@ These are trusted free and open source packages installed directly onto the host
 - ranger
 - Podman
 - Podman-compose
-- GNU Emacs
+- Doom Emacs (requires rg and fd packages)
 - Git
 - Ark
 - Elisa

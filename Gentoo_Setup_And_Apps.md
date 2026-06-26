@@ -9,7 +9,7 @@
 
 These are trusted free and open source packages installed directly onto the host.
 
-### Gentoo tools
+## Gentoo tools
 
 - sysklogd
 - cronie
@@ -23,7 +23,12 @@ These are trusted free and open source packages installed directly onto the host
 - sys-fs/fuse:0 (for proper appimage functionality)
 - openjdk:21 (Ghidra requires Java 21 runtime)
 
-### Personal Applications
+### Vulkan Development Libraries
+
+- glfw
+- glm
+
+## Personal Applications
 
 - Librewolf
 - LibreOffice

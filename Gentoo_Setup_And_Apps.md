@@ -1,15 +1,15 @@
-# Basic Setup Refernce for Gentoo AMD64 Handbook
+# 1 Basic Setup Refernce for Gentoo AMD64 Handbook
 
 - KDE Plasma
 - GRUB2 + Shim
 - OpenRC
 - ext4 FileSystem w/ encrypted LUKS2 root
 
-# Portage Emerge:
+# 2. Portage Emerge:
 
 These are trusted free and open source packages installed directly onto the host.
 
-## Gentoo tools
+## 2.1 Gentoo tools
 
 - sysklogd
 - cronie
@@ -23,35 +23,39 @@ These are trusted free and open source packages installed directly onto the host
 - sys-fs/fuse:0 (for proper appimage functionality)
 - openjdk:21 (Ghidra requires Java 21 runtime)
 
-### Security
+## 2.2 Security
+- tor
 - lynis
 - ClamAV
+- Clamtk (ClamAV GUI)
+- rkhunter
+- chkrootkit
+- KeePassXC
 - Apparmor
+- Firewalld
 
-### Development Tools & Libraries
+## 2.3 Development Tools & Libraries
 
 - valgrind
 - glfw
 - glm
+- neovim
+- ranger
+- podman
+- podman-compose
+- GNU Emacs
+- git
 
-## Personal Applications
+## 2.4 Personal Applications
 
 - Librewolf
 - LibreOffice
 - Dolphin
 - Kitty
-- KeePassXC
-- neovim
-- ranger
-- Podman
-- Podman-compose
-- Doom Emacs (requires rg and fd packages)
-- Git
 - Ark
 - Elisa
 - Kdenlive
 - Filelight
-- Firewalld
 - Flatpak
 - links
 - VLC Media Player
@@ -60,15 +64,14 @@ These are trusted free and open source packages installed directly onto the host
 - qBittorrent
 - Godot
 - Blender
-- Tor
 - GIMP
 - feh
 
-# Flatpak (Flathub)
+# 3. Flatpak (Flathub)
 
-Some free and open source applications that are not available through Portage, are installed on here for better package management (appimages are only used if the flathub option is unverified or problemactic).
+Some free and open source applications that are not available through Portage, so they're installed on here for better package management (appimages are only used if the flathub option is unverified or problemactic).
 
-**NOTE:** All flathub packages are installed are distributed by verified authors. Flathub packages that are provided by unverified authors are prohibited from installation as the maintianer of this configuraiton. This is to avoid malware and bad code form running on your personal machines.
+**NOTE:** All flathub packages that are installed are distributed by verified authors. Flathub packages that are provided by unverified authors are prohibited from installation. This is to avoid malware and bad code form running on your personal machines.
 
 - Flatseal
 - SimpleX Chat
@@ -76,8 +79,10 @@ Some free and open source applications that are not available through Portage, a
 - Podman Desktop
 - Jami a GNU Package
 - Prism Launcher (Minecraft is proprietary, so keep in flatpak for isolation purposes)
+- Steam
+- Heroic
 
-# Appimages (+ others ex. .jar, .sh, etc)
+# 4. Appimages (+ others ex. .jar, .sh, etc)
 
 Appimages and other forms of executables are an unpreferred method of installation, due to the requirements of manual updating and file handling. But, when it is the only or best option, it is used.
 

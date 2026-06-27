@@ -62,20 +62,16 @@ These are trusted free and open source packages installed directly onto the host
 
 # Flatpak (Flathub)
 
-Less trusted applications like proprietary programs are installed via flatpak for isolation and security. Also, some free and open source applications that are not available through Portage, are installed on here for better package management (appimages are only used if the flathub option is unverified).
+Some free and open source applications that are not available through Portage, are installed on here for better package management (appimages are only used if the flathub option is unverified or problemactic).
 
 **NOTE:** All flathub packages are installed are distributed by verified authors. Flathub packages that are provided by unverified authors are prohibited from installation as the maintianer of this configuraiton. This is to avoid malware and bad code form running on your personal machines.
 
-**NOTE-2:** Heroic is on Portage and is free and open source. However, since it installs proprietary games, it is untrusted by default, and placed inside of flatpak.
-
 - Flatseal
 - SimpleX Chat
-- Heroic
-- Steam
 - Beyond All Reason
 - Podman Desktop
 - Jami a GNU Package
-- Prism Launcher
+- Prism Launcher (Minecraft is proprietary, so keep in flatpak for isolation purposes)
 
 # Appimages (+ others ex. .jar, .sh, etc)
 

@@ -25,6 +25,7 @@ These are trusted free and open source packages installed directly onto the host
 
 ## 2.2 Security
 - tor
+- torsocks
 - lynis
 - ClamAV
 - Clamtk (ClamAV GUI)

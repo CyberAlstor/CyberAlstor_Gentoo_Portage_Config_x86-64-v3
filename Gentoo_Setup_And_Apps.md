@@ -25,6 +25,7 @@ These are trusted free and open source packages installed directly onto the host
 
 ### Security
 - lynis
+- ClamAV
 - Apparmor
 
 ### Development Tools & Libraries

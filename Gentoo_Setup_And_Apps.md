@@ -79,10 +79,13 @@ Some free and open source applications that are not available through Portage, s
 - Beyond All Reason
 - Podman Desktop
 - Jami a GNU Package
-- Prism Launcher (Minecraft is proprietary, so keep in flatpak for isolation purposes)
+
+## 3.1 Proprietary or has Proprietary Elements
+
+- Prism Launcher
 - Steam
 - Heroic
-- Discord
+- Vesktop (FOSS Discord frontend)
 
 # 4. Appimages (+ others ex. .jar, .sh, etc)
 

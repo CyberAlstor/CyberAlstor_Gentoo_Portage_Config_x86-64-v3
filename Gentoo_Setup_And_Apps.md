@@ -33,7 +33,7 @@ These are trusted free and open source packages installed directly onto the host
 - chkrootkit
 - KeePassXC
 - Apparmor
-- Firewalld
+- Firewalld (**drop** zone)
 
 ## 2.3 Development Tools & Libraries
 
@@ -82,6 +82,7 @@ Some free and open source applications that are not available through Portage, s
 - Prism Launcher (Minecraft is proprietary, so keep in flatpak for isolation purposes)
 - Steam
 - Heroic
+- Discord
 
 # 4. Appimages (+ others ex. .jar, .sh, etc)
 

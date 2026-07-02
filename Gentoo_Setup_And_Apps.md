@@ -4,6 +4,7 @@
 - GRUB2 + Shim
 - OpenRC
 - ext4 FileSystem w/ encrypted LUKS2 root
+- networkmanager
 
 # 2. Portage Emerge:
 
@@ -22,35 +23,37 @@ These are trusted free and open source packages installed directly onto the host
 - doas
 - sys-fs/fuse:0 (for proper appimage functionality)
 - openjdk:21 (Ghidra requires Java 21 runtime)
+- gentoolkit
 
 ## 2.2 Security
-- tor
-- torsocks
+- tor (configure w/ meek bridge)
+- proxychains
 - lynis
-- ClamAV (don't analyze ~/Documents, carries very large files, and slows down system)
+- ClamAV (**Author's NOTE:** don't analyze on open in ~/Documents and ~/Music)
 - Clamtk (ClamAV GUI)
 - rkhunter
 - chkrootkit
 - KeePassXC
 - Apparmor
-- Firewalld (**drop** zone)
+- Firewalld (use **drop** zone)
 - exiftool
+- networkmanager-openvpn (for .ovpn configs)
 
 ## 2.3 Development Tools & Libraries
 
 - valgrind
 - glfw
 - glm
-- neovim
+- mg
 - ranger
 - podman
 - podman-compose
-- GNU Emacs
-- git
+- GNU Emacs (requires libvterm package)
+- git (use Tor)
 
 ## 2.4 Personal Applications
 
-- Librewolf
+- GNU Icecat (use Tor)
 - LibreOffice
 - Dolphin
 - Kitty
@@ -76,10 +79,10 @@ Some free and open source applications that are not available through Portage, s
 **NOTE:** All flathub packages that are installed are distributed by verified authors. Flathub packages that are provided by unverified authors are prohibited from installation. This is to avoid malware and bad code form running on your personal machines.
 
 - Flatseal
-- SimpleX Chat
-- Beyond All Reason
+- SimpleX Chat (use Tor)
 - Podman Desktop
 - Jami a GNU Package
+- FreeTube (use Tor)
 
 # 4. Appimages (+ others ex. .jar, .sh, etc)
 
@@ -95,4 +98,9 @@ Appimages and other forms of executables are an unpreferred method of installati
 - Logisim Evolution
 - Tor Browser
 - Ventoy
-- Zcode
+
+# 5. Games
+
+- Beyond All Reason (flatpak via flathub)
+- sauerbraten (portage)
+- supertuxkart (portage)
